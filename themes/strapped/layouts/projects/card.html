@@ -1,11 +1,15 @@
-<div class="card" style="width: 33%">
+<div class="card">
     <div class="card-body">
-        <h5 class="card-title">{{ .Title }}</h5>
+        <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h5></a>
         <h6 class="card-subtitle mb-2 text-muted">{{ .Params.Project_type }}</h6>
-        <p class="card-text">{{ .Params.Short_desc }}</p>
+        {{ range .Params.Tech }}
+            <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
+        {{ end }}
+
+        <p class="card-text mt-4">{{ .Params.Short_desc }}</p>
         <a href="{{ .Permalink }}" type="button" class="btn btn-primary">Info</a>
-        {{ if isset .Params "live" }} 
-            <a href="{{ .Permalink }}" type="button" class="btn btn-secondary">Live</a>
+        {{ with .Params.Live }} 
+            <a href="{{ . }}" type="button" class="btn btn-secondary">Live</a>
         {{ end }}
     </div>
 </div>
