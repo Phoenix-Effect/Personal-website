@@ -12,13 +12,12 @@
     </div>
 
     <div class="row">
-        {{ range where .Data.Pages "Type" "projects" }} 
-            {{ .Render "card" }} 
-        {{ end }}
+        <div class="card-deck">
+            {{ range where .Data.Pages "Type" "projects" }} {{ .Render "card" }} {{ end }}
+        </div>
     </div>
 
     <hr />
-
     <div class="row">
         <h1>Reference Code</h1>
     </div>

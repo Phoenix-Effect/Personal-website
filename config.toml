@@ -1,7 +1,8 @@
-baseURL = "http://phoenixeffect.me"
+baseURL = "localhost:1313"
 languageCode = "en-us"
 title = "Suhail Ghafoor, Web developer @ ASU"
 theme = "strapped"
+staticDir = ["themes/strapped/css"]
 
 [params]
     description = "Currently working as a web developer at ASU while studying computer science and graduating in Spring 2019. I know how to use a paper shredder"
