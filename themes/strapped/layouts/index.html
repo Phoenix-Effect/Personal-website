@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+<div class="container">
+    <div class="row">
+        <div class="jumbotron">
+            <h1 class="display-2">Suhail Ghafoor</h1>
+            <p class="lead">{{ $.Site.Params.description }}</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <h1>Projects</h1>
+    </div>
+
+    <div class="row">
+        {{ range where .Data.Pages "Type" "projects" }} 
+            {{ .Render "card" }} 
+        {{ end }}
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <h1>Reference Code</h1>
+    </div>
+
+    <ul>
+        {{ range where .Data.Pages "Type" "reference_code" }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+
+</div>
+{{ partial "footer.html" . }}

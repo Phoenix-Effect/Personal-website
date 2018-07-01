@@ -1,0 +1,8 @@
+baseURL = "http://phoenixeffect.me"
+languageCode = "en-us"
+title = "Suhail Ghafoor, Web developer @ ASU"
+theme = "strapped"
+
+[params]
+    description = "Currently working as a web developer at ASU while studying computer science and graduating in Spring 2019. I know how to use a paper shredder"
+    author = "Suhail Ghafoor"
