@@ -7,6 +7,7 @@ short_desc: "ASU branded website for a lab with custom built ordering forms, pdf
 project_type: "Website"
 tech: ["php", "wordpress", "pdf"]
 live: "http://meac.asu.edu/"
+thumbnail: "meac-thumb.png"
 ---
 
 MEAC is a lab at ASU which does biomarker analysis on given samples. People from other universities can also send in their samples and get them tested.

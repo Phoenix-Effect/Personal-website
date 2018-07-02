@@ -10,3 +10,7 @@ body img{
     background-image: url("/~saghafoo/images/poly.jpeg");
     background-position: center;
 }
+
+.grayscale{
+    filter: grayscale(100%);
+}

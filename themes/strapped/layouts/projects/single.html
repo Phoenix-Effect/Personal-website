@@ -1,26 +1,28 @@
-{{ .Scratch.Set $.Site.Params.author "yes" }} 
 {{ partial "header.html" . }} 
-{{ $fileToRead := printf "%s%s" "/readme/projects/" .File.LogicalName }}
+
 
 <div class="container greybg mt-5 pt-4 pl-4 pr-4 pb-4 shadow">
-
-
+    
+    <div class="header">
+        <h1 id="title" class="float-left pr-4">{{ .Title }}</h1>
         {{ with .Params.Live }} 
-            <a href="{{ . }}" type="button" class="btn btn-primary float-right">Live</a>
+            <a href="{{ . }}" type="button" class="btn btn-primary float-left">Live</a>
         {{ end }}
         {{ with .Params.Code }} 
-            <a href="{{ . }}" type="button" class="btn btn-primary float-right">Code</a>
+            <a href="{{ . }}" type="button" class="btn btn-primary float-left">Code</a>
         {{ end }}
-
-    {{ range .Params.Tech }}
-        <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
-    {{ end }} 
+    </div>
+    <div class="clearfix"></div>
+        <div class="badges mb-4">
+            {{ range .Params.Tech }}
+                <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
+            {{ end }} 
+        </div>
     
-    {{ if not (fileExists $fileToRead) -}}
-        <h1 id="title">{{ .Title }}</h1>
-    {{ end }}
+        
+   
     <article id="content">
-        {{ .Content }} {{ if (fileExists $fileToRead) -}} {{ readFile $fileToRead | markdownify }} {{ end }}
+        {{ .Content }}
     </article>
 </div>
 {{ partial "footer.html" }}
