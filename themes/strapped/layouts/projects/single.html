@@ -1,8 +1,14 @@
 {{ partial "header.html" }}
-<h1 id="title">{{ .Title }}</h1>
-  <div>
+<div class="container">
+    <h1 id="title">{{ .Title }}</h1>
+    <div>
         <article id="content">
-           {{ .Content }}
+            {{ .Content }} 
+            {{ $fileToRead := printf "%s%s" "/data/projects/" .File.LogicalName }} 
+            {{ if (fileExists $fileToRead) -}}
+                {{ readFile $fileToRead | markdownify }} 
+            {{ end }}
         </article>
-  </div>
-  {{ partial "footer.html" }}
+    </div>
+</div>
+{{ partial "footer.html" }}

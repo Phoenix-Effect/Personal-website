@@ -6,6 +6,9 @@ draft: true
 short_desc: "Simple app written in Swift that makes asynchronous requests to USGS API
             and downloads data of recent earthquakes and displays them on a map."
 tech: ["Swift", "iOS"]
+readme: "https://raw.githubusercontent.com/Phoenix-Effect/iOS-Earthquakes-browser/master/README.md"
 ---
 
-# this is default template
+iOS earthquakes
+
+I am good
