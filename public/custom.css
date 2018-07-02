@@ -1,7 +1,12 @@
-body{
-    background-color: aqua;
+body img{
+    max-width: 100%;
 }
 
-h1 {
-    color: red;
+.greybg{
+    background-color: #303030;
+}
+
+.jumbotron.homepage{
+    background-image: url("/~saghafoo/images/poly.jpeg");
+    background-position: center;
 }

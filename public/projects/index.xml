@@ -35,16 +35,9 @@
       <pubDate>Sun, 01 Jul 2018 01:39:16 -0700</pubDate>
       
       <guid>http://www.public.asu.edu/~saghafoo/projects/meac-website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Center for Evolution and Medicine</title>
-      <link>http://www.public.asu.edu/~saghafoo/projects/cem-website/</link>
-      <pubDate>Sun, 01 Jul 2018 01:10:49 -0700</pubDate>
-      
-      <guid>http://www.public.asu.edu/~saghafoo/projects/cem-website/</guid>
-      <description>This is cem website</description>
+      <description>MEAC is a lab at ASU which does biomarker analysis on given samples. People from other universities can also send in their samples and get them tested.
+Requirements A website where users can
+ Get information about lab equipment and the types of tests the lab does. View pricing of the lab and get a quick estimate of price base on their type of testing and number of samples. Place online order, view order status and get results online.</description>
     </item>
     
   </channel>

@@ -1,33 +1,111 @@
+ 
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
+
 <head>
 
-    
-    <meta charset="UTF-8">
-<meta name="description" content="">
+     <meta charset="UTF-8">
+<meta name="description" content="Currently working as a web developer at ASU while studying computer science and graduating in Spring 2019. I know how to use a paper shredder.">
 <meta name="keywords" content="Arizona State University, Computer Science, Web developer, Student">
-<meta name="author" content="">
+<meta name="author" content="Suhail Ghafoor">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex">
 
-    <base href="">
-    <title>  </title>
-    <link rel="canonical" href="">
-    <link ref="stylesheet" href="http://www.public.asu.edu/~saghafoo/custom.css" type="text/css">
+    <base href="http://www.public.asu.edu/~saghafoo/">
+    <title> Molecular Epidemiology Analytics Core </title>
+    <link rel="canonical" href="http://www.public.asu.edu/~saghafoo/projects/meac-website/"> <style>
+body img{
+    max-width: 100%;
+}
+
+.greybg{
+    background-color: #303030;
+}
+
+.jumbotron.homepage{
+    background-image: url("/~saghafoo/images/poly.jpeg");
+    background-position: center;
+}
+</style>
 <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" type="text/css">
 </head>
-<body lang="en">
+
+<body lang="en"> 
 
 
- 
+<div class="container greybg mt-5 pt-4 pl-4 pr-4 pb-4 shadow">
 
-<div class="container">
+
+         
+            <a href="http://meac.asu.edu/" type="button" class="btn btn-primary float-right">Live</a>
+        
+        
+
+    
+        <span class="badge badge-primary tech php">php</span>
+    
+        <span class="badge badge-primary tech wordpress">wordpress</span>
+    
+        <span class="badge badge-primary tech pdf">pdf</span>
+     
+    
     <h1 id="title">Molecular Epidemiology Analytics Core</h1>
     
-        <article id="content">
-             
-            
-        </article>
+    <article id="content">
+        
+
+<p>MEAC is a lab at ASU which does biomarker analysis on given samples. People from other universities can also send in their samples and get them tested.</p>
+
+<hr />
+
+<h2 id="requirements">Requirements</h2>
+
+<p>A website where users can</p>
+
+<ul>
+<li>Get information about lab equipment and the types of tests the lab does.</li>
+<li>View pricing of the lab and get a quick estimate of price base on their type of testing and number of samples.</li>
+<li>Place online order, view order status and get results online.</li>
+<li>Receive email updates on order status change.</li>
+<li>A control panel where they can view all past orders, their status and invoices.</li>
+</ul>
+
+<p>and administrator can</p>
+
+<ul>
+<li>View status of all current and past orders.</li>
+<li>Change status of any order while automatically informing the customer.</li>
+<li>Generate invoice with the ability to apply custom discounts and coupons.</li>
+<li>A ledger to view reports of monthly or annual sales and profits.</li>
+</ul>
+
+<p>and</p>
+
+<ul>
+<li>The website needs to follow ASU brand guidelines.</li>
+<li>Be accessible.</li>
+<li>Hosted on ASU approved platform.</li>
+</ul>
+
+<hr />
+
+<h2 id="solution">Solution</h2>
+
+<h3 id="toolbox">Toolbox</h3>
+
+<ul>
+<li><strong>Wordpress:</strong> For quickly creating content pages along with <strong>Gravity Forms</strong> plugin to make a price calculator and ordering forms.</li>
+<li><strong>WooCommerce:</strong> For keeping track of all orders and making user control panel.</li>
+<li><strong>Sendgrid:</strong> For sending out all transactional emails and getting delivery reports.</li>
+<li><strong>Dompdf:</strong> PHP library used to convert HTML invoices to PDF.</li>
+<li><strong>Pantheon:</strong> Hosting platform that comes with version control and feature branching used to deploy and host the website.</li>
+</ul>
+
+<h3 id="implementation">Implementation</h3>
+
+<p>The project took about a month, most of which was spent on research and testing. I wrote about 600 lines of code to implement the functional requirements and around 400 for non-functional requirements like styling the content. Since in a typical ecommerce website an order is shipped out by the store I had to modify the workflow of orders and add new order statuses as appropriate. Since the lab only accepts payment in checks I did not have to add any online payment gateway. I spent most of the time making sure the order workflow made sense for both the administrator and the customer and that transactional emails went out when they were supposed to.</p>
+ 
+    </article>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

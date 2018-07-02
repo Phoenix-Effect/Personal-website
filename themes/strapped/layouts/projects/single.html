@@ -1,16 +1,26 @@
-{{ .Scratch.Set $.Site.Params.author "yes" }}
-{{ partial "header.html" . }}
-{{ $fileToRead := printf "%s%s" "/readme/projects/" .File.LogicalName }} 
+{{ .Scratch.Set $.Site.Params.author "yes" }} 
+{{ partial "header.html" . }} 
+{{ $fileToRead := printf "%s%s" "/readme/projects/" .File.LogicalName }}
 
-<div class="container greybg mt-5 pt-4 pl-4 pr-4">
+<div class="container greybg mt-5 pt-4 pl-4 pr-4 pb-4 shadow">
+
+
+        {{ with .Params.Live }} 
+            <a href="{{ . }}" type="button" class="btn btn-primary float-right">Live</a>
+        {{ end }}
+        {{ with .Params.Code }} 
+            <a href="{{ . }}" type="button" class="btn btn-primary float-right">Code</a>
+        {{ end }}
+
+    {{ range .Params.Tech }}
+        <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
+    {{ end }} 
+    
     {{ if not (fileExists $fileToRead) -}}
         <h1 id="title">{{ .Title }}</h1>
     {{ end }}
-        <article id="content">
-            {{ .Content }} 
-            {{ if (fileExists $fileToRead) -}}
-                {{ readFile $fileToRead | markdownify }} 
-            {{ end }}
-        </article>
+    <article id="content">
+        {{ .Content }} {{ if (fileExists $fileToRead) -}} {{ readFile $fileToRead | markdownify }} {{ end }}
+    </article>
 </div>
 {{ partial "footer.html" }}
