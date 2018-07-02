@@ -1,7 +1,7 @@
 #!/bin/sh
 USER=saghafoo
 HOST=general.asu.edu
-DIR=www   # might sometimes be empty!
+DIR=www
 
 hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
 

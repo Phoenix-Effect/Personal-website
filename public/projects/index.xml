@@ -6,38 +6,49 @@
     <description>Recent content in Projects on Suhail Ghafoor, Web developer @ ASU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jul 2018 17:37:01 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jun 2018 01:39:16 -0700</lastBuildDate>
     
 	<atom:link href="http://www.public.asu.edu/~saghafoo/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Finite Automata Verifier</title>
-      <link>http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/</link>
-      <pubDate>Sun, 01 Jul 2018 17:37:01 -0700</pubDate>
-      
-      <guid>http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iOS Earthquakes</title>
-      <link>http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/</link>
-      <pubDate>Sun, 01 Jul 2018 03:50:27 -0700</pubDate>
-      
-      <guid>http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Molecular Epidemiology Analytics Core</title>
       <link>http://www.public.asu.edu/~saghafoo/projects/meac-website/</link>
-      <pubDate>Sun, 01 Jul 2018 01:39:16 -0700</pubDate>
+      <pubDate>Fri, 01 Jun 2018 01:39:16 -0700</pubDate>
       
       <guid>http://www.public.asu.edu/~saghafoo/projects/meac-website/</guid>
       <description>MEAC is a lab at ASU which does biomarker analysis on given samples. People from other universities can also send in their samples and get them tested.
 Requirements A website where users can
  Get information about lab equipment and the types of tests the lab does. View pricing of the lab and get a quick estimate of price base on their type of testing and number of samples. Place online order, view order status and get results online.</description>
+    </item>
+    
+    <item>
+      <title>Finite Automata Verifier</title>
+      <link>http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/</link>
+      <pubDate>Sun, 01 Apr 2018 17:37:01 -0700</pubDate>
+      
+      <guid>http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/</guid>
+      <description>Overview The goal of this program is to check whether a system meets it specifications or not. This program takes in two FA A = System automaton, B = Specifications automaton and if they are NFAs then it converts them to DFAs using Gallier&amp;rsquo;s subset construction. It then generates an intersection between A and compliment of B and finds strings in the new language. If a string exists in the new language it means the system does not meet the specifications.</description>
+    </item>
+    
+    <item>
+      <title>iOS Earthquakes</title>
+      <link>http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/</link>
+      <pubDate>Wed, 01 Nov 2017 03:50:27 -0700</pubDate>
+      
+      <guid>http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/</guid>
+      <description>This is an app that I made as my final project for CSE335 - Principle of Mobile App Development. It is a simple app that lets the user view recent earthquakes around the world on a map or in list form and get more information about them.
+Class diagram Workflow diagram Model View Controller architecture Slides This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
+    </item>
+    
+    <item>
+      <title>Center for Evolution and Medicine</title>
+      <link>http://www.public.asu.edu/~saghafoo/projects/cem-website/</link>
+      <pubDate>Thu, 01 Jun 2017 01:10:49 -0700</pubDate>
+      
+      <guid>http://www.public.asu.edu/~saghafoo/projects/cem-website/</guid>
+      <description>Center for Evolution is a research unit under college for libral arts and sciences. CEM required a revamp of their website in order to comply with ASU brand guidelines with its content being linked to other ASU departments.
+Requirements  Website has to comply with ASU brand guidelines which includes accessibility guidelines. Events and news on the website is pulled from ASU now and ASU events website. An intuitive RSVP system for events with export options.</description>
     </item>
     
   </channel>

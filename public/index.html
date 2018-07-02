@@ -26,6 +26,30 @@ body img{
     background-image: url("/~saghafoo/images/poly.jpeg");
     background-position: center;
 }
+
+.card-image{
+    height: 200px;
+    position: relative;
+}
+
+.card-project-type{
+    margin: 10px;
+    filter:none;
+}
+
+.card-image-text{
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card-bg{
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    filter: brightness(80%);
+}
 </style>
 <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" type="text/css">
 </head>
@@ -47,9 +71,42 @@ body img{
     <div class="row">
         <div class="card-columns">
              <div class="card shadow">
+    <div class="card-image">
+        <div class="card-bg" style="background-image: url('/~saghafoo/thumbnails/meac-thumb.png')">
+        </div>
+        <div class="card-image-text">
+            <a href="http://www.public.asu.edu/~saghafoo/projects/meac-website/"><h3 class="card-title card-project-type">Molecular Epidemiology Analytics Core</h5></a>
+        </div>
+    </div>
     <div class="card-body">
-        <a href="http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/"><h3 class="card-title">Finite Automata Verifier</h5></a>
-        <h6 class="card-subtitle mb-2 text-muted">Programming</h6>
+        <div class="badges">
+        
+            <span class="badge badge-primary tech php">php</span>
+        
+            <span class="badge badge-primary tech wordpress">wordpress</span>
+        
+            <span class="badge badge-primary tech pdf">pdf</span>
+        
+        </div>
+
+        <p class="card-text mt-4">ASU branded website for a lab with custom built ordering forms, pdf invoice generator with MEAC letterhead and ASU branded transactional emails.</p>
+        <a href="http://www.public.asu.edu/~saghafoo/projects/meac-website/" type="button" class="btn btn-primary">Info</a>
+         
+            <a href="http://meac.asu.edu/" type="button" class="btn btn-secondary">Live</a>
+        
+        
+    </div>
+</div>
+  <div class="card shadow">
+    <div class="card-image">
+        <div class="card-bg" style="background-image: url('/~saghafoo/thumbnails/finite-automata-thumb.png')">
+        </div>
+        <div class="card-image-text">
+            <a href="http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/"><h3 class="card-title card-project-type">Finite Automata Verifier</h5></a>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="badges">
         
             <span class="badge badge-primary tech c&#43;&#43;">c&#43;&#43;</span>
         
@@ -57,6 +114,7 @@ body img{
         
             <span class="badge badge-primary tech javascript">javascript</span>
         
+        </div>
 
         <p class="card-text mt-4">A model verifier for finite automata written in C&#43;&#43;. The goal of this program is to check whether a system meets it specifications or not.</p>
         <a href="http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/" type="button" class="btn btn-primary">Info</a>
@@ -67,14 +125,21 @@ body img{
     </div>
 </div>
   <div class="card shadow">
+    <div class="card-image">
+        <div class="card-bg" style="background-image: url('/~saghafoo/thumbnails/earthquakes-thumb.jpg')">
+        </div>
+        <div class="card-image-text">
+            <a href="http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/"><h3 class="card-title card-project-type">iOS Earthquakes</h5></a>
+        </div>
+    </div>
     <div class="card-body">
-        <a href="http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/"><h3 class="card-title">iOS Earthquakes</h5></a>
-        <h6 class="card-subtitle mb-2 text-muted">Mobile App</h6>
+        <div class="badges">
         
             <span class="badge badge-primary tech Swift">Swift</span>
         
             <span class="badge badge-primary tech iOS">iOS</span>
         
+        </div>
 
         <p class="card-text mt-4">Simple app written in Swift that makes asynchronous requests to USGS API and downloads data of recent earthquakes and displays them on a map.</p>
         <a href="http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/" type="button" class="btn btn-primary">Info</a>
@@ -85,21 +150,28 @@ body img{
     </div>
 </div>
   <div class="card shadow">
+    <div class="card-image">
+        <div class="card-bg" style="background-image: url('/~saghafoo/thumbnails/cem-thumb.jpg')">
+        </div>
+        <div class="card-image-text">
+            <a href="http://www.public.asu.edu/~saghafoo/projects/cem-website/"><h3 class="card-title card-project-type">Center for Evolution and Medicine</h5></a>
+        </div>
+    </div>
     <div class="card-body">
-        <a href="http://www.public.asu.edu/~saghafoo/projects/meac-website/"><h3 class="card-title">Molecular Epidemiology Analytics Core</h5></a>
-        <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+        <div class="badges">
         
             <span class="badge badge-primary tech php">php</span>
         
-            <span class="badge badge-primary tech wordpress">wordpress</span>
+            <span class="badge badge-primary tech drupal">drupal</span>
         
-            <span class="badge badge-primary tech pdf">pdf</span>
+            <span class="badge badge-primary tech javascript">javascript</span>
         
+        </div>
 
-        <p class="card-text mt-4">ASU branded website for a lab with custom built ordering forms, pdf invoice generator with MEAC letterhead and ASU branded transactional emails.</p>
-        <a href="http://www.public.asu.edu/~saghafoo/projects/meac-website/" type="button" class="btn btn-primary">Info</a>
+        <p class="card-text mt-4">Website for research center at ASU. Rebuilt from scratch using drupal and ASU brand guidelines with a custom built RSVP system.</p>
+        <a href="http://www.public.asu.edu/~saghafoo/projects/cem-website/" type="button" class="btn btn-primary">Info</a>
          
-            <a href="http://meac.asu.edu/" type="button" class="btn btn-secondary">Live</a>
+            <a href="http://evmed.asu.edu/" type="button" class="btn btn-secondary">Live</a>
         
         
     </div>

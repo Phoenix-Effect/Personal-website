@@ -1,19 +1,26 @@
 <div class="card shadow">
-    <img class="card-img-top grayscale" src="/~saghafoo/thumbnails/{{ .Params.Thumbnail }}">
+    <div class="card-image">
+        <div class="card-bg" style="background-image: url('/~saghafoo/thumbnails/{{ .Params.Thumbnail }}')">
+        </div>
+        <div class="card-image-text">
+            <a href="{{ .Permalink }}"><h3 class="card-title card-project-type">{{ .Title }}</h5></a>
+        </div>
+    </div>
     <div class="card-body">
-        <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h5></a>
-        <h6 class="card-subtitle mb-2 text-muted">{{ .Params.Project_type }}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">{{ .PublishDate.Format "January, 2006" }}</h6>
+        <div class="badges">
         {{ range .Params.Tech }}
             <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
         {{ end }}
+        </div>
 
-        <p class="card-text mt-4">{{ .Params.Short_desc }}</p>
-        <a href="{{ .Permalink }}" type="button" class="btn btn-primary">Info</a>
+        <p class="card-text mt-2">{{ .Params.Short_desc }}</p>
+
         {{ with .Params.Live }} 
-            <a href="{{ . }}" type="button" class="btn btn-secondary">Live</a>
+            <a href="{{ . }}" type="button" class="btn btn-primary live">Live</a>
         {{ end }}
         {{ with .Params.Code }} 
-            <a href="{{ . }}" type="button" class="btn btn-secondary">Code</a>
+            <a href="{{ . }}" type="button" class="btn btn-primary code">Code</a>
         {{ end }}
     </div>
 </div>

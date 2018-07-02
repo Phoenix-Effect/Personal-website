@@ -1,7 +1,7 @@
 ---
 title: "Center for Evolution and Medicine"
-date: 2018-07-01T01:10:49-07:00
-draft: true
+date: 2017-06-01T01:10:49-07:00
+draft: false
 project_type: "Website"
 short_desc: "Website for research center at ASU. Rebuilt from scratch using drupal and
             ASU brand guidelines with a custom built RSVP system."

@@ -10,3 +10,27 @@ body img{
     background-image: url("/~saghafoo/images/poly.jpeg");
     background-position: center;
 }
+
+.card-image{
+    height: 200px;
+    position: relative;
+}
+
+.card-project-type{
+    margin: 10px;
+    filter:none;
+}
+
+.card-image-text{
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card-bg{
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    filter: brightness(80%);
+}

@@ -1,4 +1,3 @@
- 
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
 
@@ -26,6 +25,30 @@ body img{
     background-image: url("/~saghafoo/images/poly.jpeg");
     background-position: center;
 }
+
+.card-image{
+    height: 200px;
+    position: relative;
+}
+
+.card-project-type{
+    margin: 10px;
+    filter:none;
+}
+
+.card-image-text{
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card-bg{
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    filter: brightness(80%);
+}
 </style>
 <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" type="text/css">
 </head>
@@ -34,23 +57,27 @@ body img{
 
 
 <div class="container greybg mt-5 pt-4 pl-4 pr-4 pb-4 shadow">
-
-
+    
+    <div class="header">
+        <h1 id="title" class="float-left pr-4">Molecular Epidemiology Analytics Core</h1>
          
-            <a href="http://meac.asu.edu/" type="button" class="btn btn-primary float-right">Live</a>
+            <a href="http://meac.asu.edu/" type="button" class="btn btn-primary float-left">Live</a>
         
         
-
+    </div>
+    <div class="clearfix"></div>
+        <div class="badges mb-4">
+            
+                <span class="badge badge-primary tech php">php</span>
+            
+                <span class="badge badge-primary tech wordpress">wordpress</span>
+            
+                <span class="badge badge-primary tech pdf">pdf</span>
+             
+        </div>
     
-        <span class="badge badge-primary tech php">php</span>
-    
-        <span class="badge badge-primary tech wordpress">wordpress</span>
-    
-        <span class="badge badge-primary tech pdf">pdf</span>
-     
-    
-    <h1 id="title">Molecular Epidemiology Analytics Core</h1>
-    
+        
+   
     <article id="content">
         
 
@@ -104,7 +131,7 @@ body img{
 <h3 id="implementation">Implementation</h3>
 
 <p>The project took about a month, most of which was spent on research and testing. I wrote about 600 lines of code to implement the functional requirements and around 400 for non-functional requirements like styling the content. Since in a typical ecommerce website an order is shipped out by the store I had to modify the workflow of orders and add new order statuses as appropriate. Since the lab only accepts payment in checks I did not have to add any online payment gateway. I spent most of the time making sure the order workflow made sense for both the administrator and the customer and that transactional emails went out when they were supposed to.</p>
- 
+
     </article>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
