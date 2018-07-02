@@ -1,0 +1,8 @@
+.greybg{
+    background-color: #303030;
+}
+
+.jumbotron.homepage{
+    background-image: url("/~saghafoo/images/poly.jpeg");
+    background-position: center;
+}

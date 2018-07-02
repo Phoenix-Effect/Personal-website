@@ -5,7 +5,7 @@ import yaml
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 PROJECTS_DIR = "/Volumes/Extended/Projects/personal/content/projects/"
-DATA_DIR = "/Volumes/Extended/Projects/personal/data/projects/"
+DATA_DIR = "/Volumes/Extended/Projects/personal/readme/projects/"
 
 
 # Get all files that we need to edit

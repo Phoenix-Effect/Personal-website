@@ -1,26 +1,27 @@
 {{ partial "header.html" . }}
 <div class="container">
     <div class="row">
-        <div class="jumbotron">
-            <h1 class="display-2">Suhail Ghafoor</h1>
-            <p class="lead">{{ $.Site.Params.description }}</p>
+        <div class="jumbotron homepage">
+            <div class="col-md-8">
+                <h1 class="display-4">{{ $.Site.Params.author }}</h1>
+                <p class="lead">{{ $.Site.Params.description }}</p>
+            </div>
         </div>
     </div>
-
     <div class="row">
         <h1>Projects</h1>
     </div>
 
     <div class="row">
-        <div class="card-deck">
+        <div class="card-columns">
             {{ range where .Data.Pages "Type" "projects" }} {{ .Render "card" }} {{ end }}
         </div>
     </div>
 
     <hr />
-    <div class="row">
+    <!-- <div class="row">
         <h1>Reference Code</h1>
-    </div>
+    </div> -->
 
     <ul>
         {{ range where .Data.Pages "Type" "reference_code" }}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/projects/finite-automata-verifier/</loc>
+    <lastmod>2018-07-01T17:37:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/projects/ios-earthquakes/</loc>
+    <lastmod>2018-07-01T03:50:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/projects/meac-website/</loc>
+    <lastmod>2018-07-01T01:39:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/projects/cem-website/</loc>
+    <lastmod>2018-07-01T01:10:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/projects/</loc>
+    <lastmod>2018-07-01T17:37:01-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/</loc>
+    <lastmod>2018-07-01T17:37:01-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.public.asu.edu/~saghafoo/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

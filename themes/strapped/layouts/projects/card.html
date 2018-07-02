@@ -11,5 +11,8 @@
         {{ with .Params.Live }} 
             <a href="{{ . }}" type="button" class="btn btn-secondary">Live</a>
         {{ end }}
+        {{ with .Params.Code }} 
+            <a href="{{ . }}" type="button" class="btn btn-secondary">Code</a>
+        {{ end }}
     </div>
 </div>
