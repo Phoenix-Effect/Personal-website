@@ -42,6 +42,15 @@ Class diagram Workflow diagram Model View Controller architecture Slides This br
     </item>
     
     <item>
+      <title>GPMDP Web Remote</title>
+      <link>http://www.public.asu.edu/~saghafoo/projects/gpmdp-web-remote/</link>
+      <pubDate>Fri, 02 Jun 2017 14:19:23 -0700</pubDate>
+      
+      <guid>http://www.public.asu.edu/~saghafoo/projects/gpmdp-web-remote/</guid>
+      <description>This is a remote created for the unofficial google music desktop player. Laziness is the mother of this invention. This app uses websockets and all of the code in this program is asynchronous.</description>
+    </item>
+    
+    <item>
       <title>Center for Evolution and Medicine</title>
       <link>http://www.public.asu.edu/~saghafoo/projects/cem-website/</link>
       <pubDate>Thu, 01 Jun 2017 01:10:49 -0700</pubDate>

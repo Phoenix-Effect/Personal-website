@@ -10,6 +10,6 @@ code: "https://github.com/Phoenix-Effect/GPMDP-Web-Remote"
 thumbnail: "gpmdp-thumb.png"
 ---
 
-This is a remote created for the unofficial [google music desktop player](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-). Laziness is the mother of this invention. 
+This is a remote created for the unofficial [google music desktop player](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-). Laziness is the mother of this invention. This app uses websockets and all of the code in this program is asynchronous.
 
 ![remote screenshot]( /~saghafoo/images/gmpdp-remote.png) 

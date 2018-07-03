@@ -32,5 +32,5 @@ body img{
 .card-bg{
     height: 200px;
     border-radius: 5px 5px 0 0;
-    filter: brightness(80%);
+    filter: brightness(70%);
 }

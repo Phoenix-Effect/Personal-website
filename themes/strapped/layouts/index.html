@@ -9,7 +9,10 @@
         </div>
     </div>
     <div class="row">
-        <h1>Projects</h1>
+        <h1>Projects </h1>
+    </div>
+    <div class="row">
+            <p class="text-muted">Complete products that fulfill the purpose they were made for. Their robustness is a different question.</p>
     </div>
 
     <div class="row">
@@ -19,17 +22,8 @@
     </div>
 
     <hr />
-    <!-- <div class="row">
-        <h1>Reference Code</h1>
-    </div> -->
 
-    <ul>
-        {{ range where .Data.Pages "Type" "reference_code" }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-    </ul>
+    {{ partial "reference_code.html" . }}
 
 </div>
 {{ partial "footer.html" . }}

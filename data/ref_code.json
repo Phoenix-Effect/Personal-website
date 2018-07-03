@@ -1,0 +1,22 @@
+{
+    "code": [
+        {
+            "name": "Url to thumbnail",
+            "desc": " Given a url of a video hosted on ted, youtube or vimeo, finds where the video is hosted and outputs the thumbnail for that video.",
+            "url": "https://gist.github.com/Phoenix-Effect/fecf63d14f916115fafeb615ab7b4989",
+            "lang": "PHP"
+        },
+        {
+            "name": "Questions Reader",
+            "desc": "Example of how you can read and parse JSON file in Java. Requires JSON library.",
+            "url": "https://gist.github.com/Phoenix-Effect/58157b6f7b554ba27d3aac660737f9d0",
+            "lang": "Java, JSON"
+        },
+        {
+            "name": "Salesforce/Airtable subscription form.",
+            "desc": "Example of salesforce newsletter subscription form. Also shows how a single form can be submitted to multiple destinations.",
+            "url": "https://github.com/Phoenix-Effect/Salesforce-subscription-form",
+            "lang": "PHP, Javascript"
+        }
+    ]
+}
