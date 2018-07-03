@@ -35,6 +35,18 @@
             "desc": "Pulls information from google analytics and exports it CSV. Good for exporting a huge amount of data at once.",
             "url": "https://github.com/Phoenix-Effect/GA-Fetch-Java/",
             "lang": "Java, CSV"
+        },
+        {
+            "name": "Frequency in array",
+            "desc": "Count frequency of a string in a given array without using any functions or classes in Java.",
+            "url": "https://gist.github.com/Phoenix-Effect/685f3ae0c4ebfc307c0f63df6afc9e73",
+            "lang": "Java"
+        },
+        {
+            "name": "Youtube to airtable",
+            "desc": " Scrape videos data from youtube and push to airtable. By default reads from videos.txt but can changed with an argument.",
+            "url": "https://gist.github.com/Phoenix-Effect/fbc8e54af71424d7ce4e86d54182f8b1",
+            "lang": "Python"
         }
     ]
 }

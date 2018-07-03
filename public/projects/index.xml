@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Suhail Ghafoor, Web developer @ ASU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jun 2018 01:39:16 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jul 2018 00:10:09 -0700</lastBuildDate>
     
 	<atom:link href="http://www.public.asu.edu/~saghafoo/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Portfolio Website</title>
+      <link>http://www.public.asu.edu/~saghafoo/projects/portfolio-website/</link>
+      <pubDate>Tue, 03 Jul 2018 00:10:09 -0700</pubDate>
+      
+      <guid>http://www.public.asu.edu/~saghafoo/projects/portfolio-website/</guid>
+      <description>The goal was to spend a weekend polishing my resume and yada yada yada I ended up learning golang and build a custom theme for this website. I idea was to build a website that can be deployed on apache without PHP or mySQL so that it can be hosted on a university server or github pages when needed. More benefits of using hugo mentioned here</description>
+    </item>
     
     <item>
       <title>Molecular Epidemiology Analytics Core</title>

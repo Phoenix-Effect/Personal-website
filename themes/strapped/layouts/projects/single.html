@@ -4,17 +4,18 @@
     <a href="{{ .Site.BaseURL }}" class="btn btn-primary"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>
 </div>
 
-<div class="container greybg mt-3 pt-4 pl-4 pr-4 pb-4 shadow rounded">
+<div class="container greybg mt-3 pt-4 pl-4 pr-4 pb-4 mb-5 shadow rounded">
     <div class="header">
         <h1 id="title" class="float-left pr-4">{{ .Title }} <small class="text-muted">{{ .PublishDate.Format "January, 2006" }}</small></h1>
         {{ with .Params.Live }} 
-            <a href="{{ . }}" type="button" class="btn btn-primary float-left">Live</a>
+            <a href="{{ . }}" type="button" class="btn btn-primary float-left"><i class="fa fa-external-link" aria-hidden="true"></i> Live</a>
         {{ end }}
         {{ with .Params.Code }} 
-            <a href="{{ . }}" type="button" class="btn btn-primary float-left">Code</a>
+            <a href="{{ . }}" type="button" class="btn btn-primary float-left"><i class="fa fa-github" aria-hidden="true"></i> Code</a>
         {{ end }}
     </div>
     <div class="clearfix"></div>
+        <small>Last modified at {{ .Lastmod.Format "January 2, 2006 at 15:04:05" }}</small>
         <div class="badges mb-4">
             {{ range .Params.Tech }}
                 <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
