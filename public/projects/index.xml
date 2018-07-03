@@ -51,6 +51,15 @@ Class diagram Workflow diagram Model View Controller architecture Slides This br
     </item>
     
     <item>
+      <title>Stonelab at ASU</title>
+      <link>http://www.public.asu.edu/~saghafoo/projects/stonelab/</link>
+      <pubDate>Mon, 03 Jul 2017 14:10:21 -0700</pubDate>
+      
+      <guid>http://www.public.asu.edu/~saghafoo/projects/stonelab/</guid>
+      <description>Redid the lab website, moved to a new theme with a front end page builder for drag and drop templates. Updated wordpress, setup an ssl-certificate and changed htaccess to always use https.</description>
+    </item>
+    
+    <item>
       <title>GPMDP Web Remote</title>
       <link>http://www.public.asu.edu/~saghafoo/projects/gpmdp-web-remote/</link>
       <pubDate>Fri, 02 Jun 2017 14:19:23 -0700</pubDate>
@@ -67,6 +76,15 @@ Class diagram Workflow diagram Model View Controller architecture Slides This br
       <guid>http://www.public.asu.edu/~saghafoo/projects/cem-website/</guid>
       <description>Center for Evolution is a research unit under college for libral arts and sciences. CEM required a revamp of their website in order to comply with ASU brand guidelines with its content being linked to other ASU departments.
 Requirements  Website has to comply with ASU brand guidelines which includes accessibility guidelines. Events and news on the website is pulled from ASU now and ASU events website. An intuitive RSVP system for events with export options.</description>
+    </item>
+    
+    <item>
+      <title>EvMedReview</title>
+      <link>http://www.public.asu.edu/~saghafoo/projects/evmedreview/</link>
+      <pubDate>Fri, 03 Feb 2017 12:34:33 -0700</pubDate>
+      
+      <guid>http://www.public.asu.edu/~saghafoo/projects/evmedreview/</guid>
+      <description>A simple revamp of this scientific articles review blog to bring it up to modern design standards, making it responsive while adding new features.</description>
     </item>
     
   </channel>

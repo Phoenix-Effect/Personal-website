@@ -6,7 +6,7 @@
 
 <div class="container greybg mt-3 pt-4 pl-4 pr-4 pb-4 mb-5 shadow rounded">
     <div class="header">
-        <h1 id="title" class="float-left pr-4">{{ .Title }} <small class="text-muted">{{ .PublishDate.Format "January, 2006" }}</small></h1>
+        <h1 id="title" class="float-left pr-4">{{ .Title }}</h1>
         {{ with .Params.Live }} 
             <a href="{{ . }}" type="button" class="btn btn-primary float-left"><i class="fa fa-external-link" aria-hidden="true"></i> Live</a>
         {{ end }}
@@ -15,7 +15,7 @@
         {{ end }}
     </div>
     <div class="clearfix"></div>
-        <small>Last modified at {{ .Lastmod.Format "January 2, 2006 at 15:04:05" }}</small>
+        <p class="text-muted">Project completed: {{ .PublishDate.Format "January, 2006" }}</p>
         <div class="badges mb-4">
             {{ range .Params.Tech }}
                 <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>

@@ -39,3 +39,13 @@ footer{
     height: 50px;
     background-color: #1a1a1a;
 }
+
+:root .btn-secondary{
+    background-color: #2F6F77;
+    border-color: #2F6F77;
+}
+
+:root .neg-margin{
+    margin-left: -30px;
+    margin-right: -30px;
+}

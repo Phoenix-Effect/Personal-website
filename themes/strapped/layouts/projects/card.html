@@ -1,27 +1,35 @@
-<div class="card shadow">
-    <div class="card-image">
-        <div class="card-bg" style="background-image: url('/~saghafoo/thumbnails/{{ .Params.Thumbnail }}')">
+<div class="col-md-4 col-sm-6 col-12 mb-4">
+    <div class="card shadow h-100">
+        <div class="card-image">
+            <div class="card-bg" style="background-image: url('/~saghafoo/thumbnails/{{ .Params.Thumbnail }}')">
+            </div>
+            <div class="card-image-text">
+                <a href="{{ .Permalink }}">
+                    <h3 class="card-title card-project-type">{{ .Title }}</h5>
+                </a>
+            </div>
         </div>
-        <div class="card-image-text">
-            <a href="{{ .Permalink }}"><h3 class="card-title card-project-type">{{ .Title }}</h5></a>
-        </div>
-    </div>
-    <div class="card-body">
-        <h6 class="card-subtitle mb-2 text-muted">{{ .PublishDate.Format "January, 2006" }}</h6>
-        <div class="badges">
-        {{ range .Params.Tech }}
-            <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
-        {{ end }}
-        </div>
+        <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">{{ .PublishDate.Format "January, 2006" }}</h6>
+            <div class="badges">
+                {{ range .Params.Tech }}
+                <span class="badge badge-primary tech {{ . }}">{{- . -}}</span>
+                {{ end }}
+            </div>
 
-        <p class="card-text mt-2">{{ .Params.Short_desc }}</p>
+            <p class="card-text mt-2">{{ .Params.Short_desc }}</p>
 
-        {{ with .Params.Live }} 
-            <a href="{{ . }}" type="button" class="btn btn-primary live"><i class="fa fa-external-link" aria-hidden="true"></i> Live</a>
-        {{ end }}
-        {{ with .Params.Code }} 
-            <a href="{{ . }}" type="button" class="btn btn-primary code"><i class="fa fa-github" aria-hidden="true"></i> Code</a>
-        {{ end }}
-            <a href="{{ .Permalink }}" type="button" class="btn btn-secondary"><i class="fa fa-info" aria-hidden="true"></i> Info</a>
+        </div>
+        <div class="card-footer">
+                {{ with .Params.Live }}
+                <a href="{{ . }}" type="button" class="btn btn-primary live">
+                    <i class="fa fa-external-link" aria-hidden="true"></i> Live</a>
+                {{ end }} {{ with .Params.Code }}
+                <a href="{{ . }}" type="button" class="btn btn-primary code">
+                    <i class="fa fa-github" aria-hidden="true"></i> Code</a>
+                {{ end }}
+                <a href="{{ .Permalink }}" type="button" class="btn btn-secondary">
+                    <i class="fa fa-info" aria-hidden="true"></i> Info</a>
+        </div>
     </div>
 </div>
