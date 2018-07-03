@@ -17,6 +17,24 @@
             "desc": "Example of salesforce newsletter subscription form. Also shows how a single form can be submitted to multiple destinations.",
             "url": "https://github.com/Phoenix-Effect/Salesforce-subscription-form",
             "lang": "PHP, Javascript"
+        },
+        {
+            "name": "StayinAlive",
+            "desc": "Ping a computer and upload the response (up or down) to firebase. Also send an email if the computer is down.",
+            "url": "https://github.com/Phoenix-Effect/StayinAlive",
+            "lang": "NodeJS, Firebase"
+        },
+        {
+            "name": "StayinAliveClient",
+            "desc": "Downloads computer status from firebase and displays them on a local website while constantly updating status using websockets",
+            "url": "https://github.com/Phoenix-Effect/StayinAliveClient",
+            "lang": "NodeJS, Firebase, Websocket"
+        },
+        {
+            "name": "Google Analytics to CSV",
+            "desc": "Pulls information from google analytics and exports it CSV. Good for exporting a huge amount of data at once.",
+            "url": "https://github.com/Phoenix-Effect/GA-Fetch-Java/",
+            "lang": "Java, CSV"
         }
     ]
 }
