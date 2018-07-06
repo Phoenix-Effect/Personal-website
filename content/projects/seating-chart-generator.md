@@ -12,14 +12,13 @@ thumbnail: "seating-chart-thumb.png"
 
 The program generates a simple exam seating chart with a given criteria. The program can take input and give results in various formats. To get get started within the program or get full list of commands type the following commands.
 
-![Screenshot of output](/~saghafoo/images/output-screenshot.png "Screenshot of output")
-
 ```
 prolog
 commands.
 help. 
 ```
 
+![Screenshot of output](/~saghafoo/images/output-screenshot.png "Screenshot of output")
 
 ### Commands list
 * Normal seating (starts from beginning of the list)

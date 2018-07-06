@@ -80,6 +80,7 @@ For ease of use I've grouped up all of the important values in the same place wh
   * **nicefyNames** - bool - *(default: true)* - Generate integer names for the new states in intersected automaton. If set to false then shows the intersected names which are something like `12SYS##SP23` which means state 1,2 of the system automaton intersected with state 2,3 of the specifications automaton. Useful when debugging. 
 
   The colors of the output graph can be changed by going to helper.h file and editing values on line 52-55. The values are as follows. 
+  
   * **initColor** Color of the initial state.
   * **defColor** Color of default nodes i.e. nodes that are neither accepting nor initial.
   * **accColor** Color of accepting nodes.
