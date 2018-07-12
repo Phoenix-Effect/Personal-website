@@ -48,3 +48,16 @@ footer{
     margin-left: -30px;
     margin-right: -30px;
 }
+
+pre{
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid black;
+    color: #B8860B;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word; 
+}
