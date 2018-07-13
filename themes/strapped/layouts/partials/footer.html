@@ -1,8 +1,15 @@
 {{ partial "footer_includes.html" . }}
 <footer class="footer">
     <div class="container pt-3 text-muted">
-        <p class="float-left">Generated in BUILDTIME and deployed on {{ now.Format "January 2, 2006 at 15:04:05"}} MST</p>
-        <p class="float-right">Made using Hugo. <i class="fa fa-heart" aria-hidden="true"></i></p>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="float-left">Generated in BUILDTIME and deployed on {{ now.Format "January 2, 2006 at 15:04:05"}} MST</p>
+            </div>
+
+            <div class="col-md-6">
+                <p class="float-right">Made using Hugo. <i class="fa fa-heart" aria-hidden="true"></i></p>
+            </div>
+        </div>
     </div>
     <div class="clearfix"></div>
 </footer>

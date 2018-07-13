@@ -92,6 +92,8 @@ While it is obvious to choose the best partition within a cluster like serial, l
     ```
 Which means run the script on a node that satisfies either constraint. You can visit [sbatch documentation](https://slurm.schedmd.com/sbatch.html) for complete list of commands and their combinations.
 
+In most cases chosing the best node would not give you a better performance out of the box specially if your program uses libraries like CUDA. However, with some optimization the time saved might be worth it.
+
 ### Bonus tip: Bash history
 
 My life has not been the same since I learned this command last year. You know how you sometimes have to use up arrow more than a couple of times to found a command you wrote a few commands ago, maybe even during last session? Well you can type in `history` to view all of your old commands! Not only that, the history commands are numbered and if you want to execute any command from your history simple type in '!' followed by the number. 
