@@ -44,9 +44,15 @@
         },
         {
             "name": "Youtube to airtable",
-            "desc": " Scrape videos data from youtube and push to airtable. By default reads from videos.txt but can changed with an argument.",
+            "desc": "Scrape videos data from youtube and push to airtable. By default reads from videos.txt but can changed with an argument.",
             "url": "https://gist.github.com/Phoenix-Effect/fbc8e54af71424d7ce4e86d54182f8b1",
             "lang": "Python"
+        },
+        {
+            "name": "BAM index checker",
+            "desc": "Given a folder, checks if the bam index files in a directory are newer than their corresponding bam files.",
+            "url": "https://gist.github.com/Phoenix-Effect/eedb3ff1a73c6d5ca5adbb7eb7835766",
+            "lang": "bash"
         }
     ]
 }
