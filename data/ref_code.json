@@ -2,7 +2,7 @@
     "code": [
         {
             "name": "Url to thumbnail",
-            "desc": " Given a url of a video hosted on ted, youtube or vimeo, finds where the video is hosted and outputs the thumbnail for that video.",
+            "desc": "Given a url of a video hosted on ted, youtube or vimeo, finds where the video is hosted and outputs the thumbnail for that video.",
             "url": "https://gist.github.com/Phoenix-Effect/fecf63d14f916115fafeb615ab7b4989",
             "lang": "PHP"
         },
@@ -44,7 +44,7 @@
         },
         {
             "name": "Youtube to airtable",
-            "desc": "Scrape videos data from youtube and push to airtable. By default reads from videos.txt but can changed with an argument.",
+            "desc": "Scrape videos data like duration, thumbnail, closed captions, views and description etc from youtube and pushes to airtable.",
             "url": "https://gist.github.com/Phoenix-Effect/fbc8e54af71424d7ce4e86d54182f8b1",
             "lang": "Python"
         },
@@ -53,6 +53,12 @@
             "desc": "Given a folder, checks if the bam index files in a directory are newer than their corresponding bam files.",
             "url": "https://gist.github.com/Phoenix-Effect/eedb3ff1a73c6d5ca5adbb7eb7835766",
             "lang": "bash"
+        },
+        {
+            "name": "Airtable fill book information",
+            "desc": "Get ISBN numbers from an airtable sheet, query google books for book information like cover, title, description and add them back to airtable.",
+            "lang": "Python",
+            "url": "https://gist.github.com/Phoenix-Effect/3608410ac4ff1255aaea82420e60b775"
         }
     ]
 }
