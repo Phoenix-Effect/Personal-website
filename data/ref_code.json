@@ -55,10 +55,16 @@
             "lang": "bash"
         },
         {
-            "name": "Airtable fill book information",
+            "name": "Get book metadata",
             "desc": "Get ISBN numbers from an airtable sheet, query google books for book information like cover, title, description and add them back to airtable.",
             "lang": "Python",
             "url": "https://gist.github.com/Phoenix-Effect/3608410ac4ff1255aaea82420e60b775"
+        },
+        {
+            "name": "Get articles metadata",
+            "desc": "Get DOI numbers from airtable, query crossref for article metadata and APA reference and fill back airtable fields.",
+            "lang": "Python",
+            "url": "https://gist.github.com/Phoenix-Effect/b1e0acc4e494e813e4c56a502d7e3894"
         }
     ]
 }
