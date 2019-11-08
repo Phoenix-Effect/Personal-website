@@ -2,3 +2,7 @@ fetch_readme/.idea
 *.sh
 
 public/
+
+themes/strapped/.DS_Store
+
+.DS_Store
