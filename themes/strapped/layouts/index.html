@@ -16,7 +16,7 @@
     </div>
 
         <div class="row neg-margin">
-            {{ range where .Site.Pages "Type" "projects" }} {{ .Render "card" }} {{ end }}
+            {{ range where .Site.Pages "Type" "projects" }} {{ if gt (len .Content) 0 }} {{ .Render "card" }} {{ end }} {{ end }}
         </div>
 
     <hr />

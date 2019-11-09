@@ -1,6 +1,6 @@
 baseURL = "http://www.public.asu.edu/~saghafoo/"
 languageCode = "en-us"
-title = "Suhail Ghafoor, Web developer @ ASU"
+title = "Suhail Ghafoor | Manager Information technology @ ASU"
 theme = "strapped"
 staticDir = ["static"]
 
