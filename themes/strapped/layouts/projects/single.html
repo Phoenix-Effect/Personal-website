@@ -25,7 +25,13 @@
         
    
     <article id="content">
-        {{ .Content }}
+        <div class="row">
+            <div class="col-md-8">
+                {{ .Content }}
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
     </article>
 </div>
 {{ partial "footer.html" }}

@@ -1,6 +1,12 @@
 {
     "code": [
         {
+            "name": "Exam matcher",
+            "desc": "Parses an exam using regex and separates detects questions and their answers. Can match the orders of questions in multiple versions of the same exam.",
+            "url": "https://gist.github.com/Phoenix-Effect/e2386f00525921385f1a9af1d4d6115d",
+            "lang": "Python"
+        },
+        {
             "name": "Url to thumbnail",
             "desc": "Given a url of a video hosted on ted, youtube or vimeo, finds where the video is hosted and outputs the thumbnail for that video.",
             "url": "https://gist.github.com/Phoenix-Effect/fecf63d14f916115fafeb615ab7b4989",
@@ -65,6 +71,12 @@
             "desc": "Get DOI numbers from airtable, query crossref for article metadata and APA reference and fill back airtable fields.",
             "lang": "Python",
             "url": "https://gist.github.com/Phoenix-Effect/b1e0acc4e494e813e4c56a502d7e3894"
+        },
+        {
+            "name": "Random number generator",
+            "desc": "Simple random number generator for bash.",
+            "url": "https://gist.github.com/Phoenix-Effect/74a11dc820eb8adcc69015aadd7c91f2",
+            "lang": "bash"
         }
     ]
 }

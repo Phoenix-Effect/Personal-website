@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Welcome to AMWA Bingo!</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="display-4">Bingo Night!</h1>
+          </div>
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="img/logo.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="bingo-machine" data-number="-1">
+            <img class="img-fluid" src="img/initial-machine.jpg">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <button type="button" class="btn btn-primary btn-lg" onclick="bingo()" id="bingButton">Get next number</button>
+          <hr>
+          <h4>Previous numbers</h2>
+            <ul class="list-group" id="pres-numbers">
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bingo.js"></script>
+  </body>
+</html>
