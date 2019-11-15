@@ -8,7 +8,7 @@
     <div class="header">
         <h1 id="title" class="float-left pr-4">{{ .Title }}</h1>
         {{ with .Params.Live }} 
-            <a href="{{ . }}" type="button" class="btn btn-primary float-left"><i class="fa fa-external-link" aria-hidden="true"></i> Live</a>
+            <a href="{{ . }}" type="button" class="btn btn-primary float-left mr-2"><i class="fa fa-external-link" aria-hidden="true"></i> Live</a>
         {{ end }}
         {{ with .Params.Code }} 
             <a href="{{ . }}" type="button" class="btn btn-primary float-left"><i class="fa fa-github" aria-hidden="true"></i> Code</a>
