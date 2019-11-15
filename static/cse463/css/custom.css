@@ -1,0 +1,40 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.icon-color{
+    #color: red;
+}
+
+#animals .row{
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    position:relative;
+}
+
+@-moz-keyframes slidein {
+    from {
+        bottom:-30px;
+        opacity: 0;
+    }
+
+    to {
+        bottom:0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slidein {
+    from {
+        bottom:-30px;
+        opacity: 0;
+    }
+
+    to {
+        bottom:0px;
+        opacity: 1;
+    }
+}
