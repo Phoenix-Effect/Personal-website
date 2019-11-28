@@ -1,5 +1,5 @@
 ---
-title: "Finite Automata Verifier"
+title: "Finite Automata Verifier Tool"
 date: 2018-04-01T17:37:01-07:00
 project_type: "Programming"
 draft: false

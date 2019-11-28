@@ -22,10 +22,10 @@
         </div>
         <div class="card-footer">
                 {{ with .Params.Live }}
-                <a href="{{ . }}" class="btn btn-primary live">
+                <a href="{{ . }}" class="btn btn-primary live mr-1">
                     <i class="fa fa-external-link" aria-hidden="true"></i> Live</a>
                 {{ end }} {{ with .Params.Code }}
-                <a href="{{ . }}" class="btn btn-primary code">
+                <a href="{{ . }}" class="btn btn-primary code mr-1">
                     <i class="fa fa-github" aria-hidden="true"></i> Code</a>
                 {{ end }}
                 <a href="{{ .Permalink }}" class="btn btn-secondary">
